@@ -1,0 +1,154 @@
+{
+   "agent": "UnknownServer",
+   "behavior": "FAILED",
+   "behaviorClose": "FAILED",
+   "case": 92,
+   "closedByMe": true,
+   "createStats": true,
+   "createWirelog": true,
+   "description": "Send a text message with payload which is not valid UTF-8 in one fragment.<br><br>Payload: 0xcebae1bdb9cf83cebcce",
+   "droppedByMe": false,
+   "duration": 512,
+   "expectation": "The connection is failed immediately, since the payload is not valid UTF-8.",
+   "expected": {
+      "OK": []
+   },
+   "expectedClose": {
+      "closeCode": [
+         1007
+      ],
+      "closedByMe": false,
+      "closedByWrongEndpointIsFatal": true,
+      "requireClean": false
+   },
+   "failedByMe": true,
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.5-0.10.9\r\nHost: localhost:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: emRklVYYFpNU3xfTQfa4tg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: zjenMQSM47fAhw4RdN2gxaSoAEM=\r\nTransfer-Encoding: Chunked\r\n\r\n",
+   "id": "6.6.10",
+   "isServer": false,
+   "localCloseCode": 1001,
+   "localCloseReason": "Going Away",
+   "received": [
+      [
+         "message",
+         "\u03ba\u1f79\u03c3\u03bc\ufffd",
+         false
+      ]
+   ],
+   "remoteCloseCode": null,
+   "remoteCloseReason": null,
+   "reportCompressionRatio": false,
+   "reportTime": false,
+   "result": "Actual events differ from any expected.",
+   "resultClose": "The connection was failed by the wrong endpoint",
+   "rxFrameStats": {
+      "1": 1
+   },
+   "rxOctetStats": {
+      "14": 1,
+      "157": 1
+   },
+   "started": "2016-10-06T01:29:36.109Z",
+   "trafficStats": null,
+   "txFrameStats": {
+      "1": 1,
+      "8": 1
+   },
+   "txOctetStats": {
+      "16": 1,
+      "18": 1,
+      "240": 1
+   },
+   "wasClean": false,
+   "wasCloseHandshakeTimeout": false,
+   "wasNotCleanReason": "peer dropped the TCP connection without previous WebSocket closing handshake",
+   "wasOpenHandshakeTimeout": false,
+   "wasServerConnectionDropTimeout": false,
+   "wirelog": [
+      [
+         "TO",
+         [
+            240,
+            "474554202f20485454502f312e310d0a557365722d4167656e743a204175746f6261686e5465737453756974652f302e372e352d302e31302e390d0a486f7374 ..."
+         ],
+         false
+      ],
+      [
+         "RO",
+         [
+            157,
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a557067726164653a20576562536f636b65740d0a436f6e6e656374696f6e ..."
+         ]
+      ],
+      [
+         "TF",
+         [
+            10,
+            "0xcebae1bdb9cf83cebcce"
+         ],
+         1,
+         true,
+         0,
+         "5b8b5507",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            16,
+            "818a5b8b55079531b4bae244d6c9e745"
+         ],
+         false
+      ],
+      [
+         "KL",
+         0.5
+      ],
+      [
+         "RO",
+         [
+            14,
+            "810ccebae1bdb9cf83cebcefbfbd"
+         ]
+      ],
+      [
+         "RF",
+         [
+            12,
+            "\u03ba\u1f79\u03c3\u03bc\ufffd"
+         ],
+         1,
+         true,
+         0,
+         false,
+         null
+      ],
+      [
+         "KLE"
+      ],
+      [
+         "TF",
+         [
+            12,
+            "0x03e9476f696e672041776179"
+         ],
+         8,
+         true,
+         0,
+         "bb01ab64",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            18,
+            "888cbb01ab64b8e8ec0bd26fcc44fa76ca1d"
+         ],
+         false
+      ]
+   ]
+}

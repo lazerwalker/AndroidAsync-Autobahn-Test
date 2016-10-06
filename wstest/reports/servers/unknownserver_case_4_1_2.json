@@ -1,0 +1,125 @@
+{
+   "agent": "UnknownServer",
+   "behavior": "OK",
+   "behaviorClose": "FAILED",
+   "case": 36,
+   "closedByMe": true,
+   "createStats": true,
+   "createWirelog": true,
+   "description": "Send frame with reserved non-control <b>Opcode = 4</b> and non-empty payload.",
+   "droppedByMe": true,
+   "duration": 2013,
+   "expectation": "The connection is failed immediately.",
+   "expected": {
+      "OK": []
+   },
+   "expectedClose": {
+      "closeCode": [
+         1002
+      ],
+      "closedByMe": false,
+      "requireClean": false
+   },
+   "failedByMe": true,
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.5-0.10.9\r\nHost: localhost:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: /tQrz+3+cPCfuevF6O5BXg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: C2dC+DZ5BLB++VbK96n+gNVDufE=\r\nTransfer-Encoding: Chunked\r\n\r\n",
+   "id": "4.1.2",
+   "isServer": false,
+   "localCloseCode": 1001,
+   "localCloseReason": "Going Away",
+   "received": [],
+   "remoteCloseCode": null,
+   "remoteCloseReason": null,
+   "reportCompressionRatio": false,
+   "reportTime": false,
+   "result": "Actual events match at least one expected.",
+   "resultClose": "The connection was failed by the wrong endpoint",
+   "rxFrameStats": {},
+   "rxOctetStats": {
+      "157": 1
+   },
+   "started": "2016-10-06T01:28:46.408Z",
+   "trafficStats": null,
+   "txFrameStats": {
+      "4": 1,
+      "8": 1
+   },
+   "txOctetStats": {
+      "18": 1,
+      "29": 1,
+      "240": 1
+   },
+   "wasClean": false,
+   "wasCloseHandshakeTimeout": true,
+   "wasNotCleanReason": "peer did not respond (in time) in closing handshake",
+   "wasOpenHandshakeTimeout": false,
+   "wasServerConnectionDropTimeout": false,
+   "wirelog": [
+      [
+         "TO",
+         [
+            240,
+            "474554202f20485454502f312e310d0a557365722d4167656e743a204175746f6261686e5465737453756974652f302e372e352d302e31302e390d0a486f7374 ..."
+         ],
+         false
+      ],
+      [
+         "RO",
+         [
+            157,
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a557067726164653a20576562536f636b65740d0a436f6e6e656374696f6e ..."
+         ]
+      ],
+      [
+         "TF",
+         [
+            23,
+            "reserved opcode payload"
+         ],
+         4,
+         true,
+         0,
+         "2fd79d21",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            29,
+            "84972fd79d215db2ee445da1f8450fb8ed4240b3f8015fb6e44d40b6f9"
+         ],
+         false
+      ],
+      [
+         "KL",
+         1
+      ],
+      [
+         "KLE"
+      ],
+      [
+         "TF",
+         [
+            12,
+            "0x03e9476f696e672041776179"
+         ],
+         8,
+         true,
+         0,
+         "ca77c9a5",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            18,
+            "888cca77c9a5c99e8ecaa319ae858b00a8dc"
+         ],
+         false
+      ]
+   ]
+}

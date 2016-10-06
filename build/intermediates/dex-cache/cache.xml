@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_a4aeaf5a9f41527d9e7a26236b8346152ec0c597/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_363631f1a5202b6cdbf33d2bc547a83df9cc59c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0e9a1af041683c256e8876038dc33e4977df9d0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="73fa6481ba1950037776c136f25b9a4d9e5ae938">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6babe733e36b27f1eeaacbdeb6092a6d140f800/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_804421762f6c8f330f34b70987b7c553840b30d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_34b53ad6db898f3045ddecc6cc637f0bea8800ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_01aa984cdbb49fcf3f679a1b2e018508261f06e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_4dc32c146918f1317f5367184fc20e63490dbf56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_ec1dad0c00e5310e4b1b228182381045e2c8953d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_fd3f95c7a82dc865efbab2129a0c2bcfc044c716/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d0e28fe7ab6da6c03b54cd8ede502284d51a81">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.async-androidasync-2.1.9_23b21eac3325c74e01f687d2e4512ae46cb86293/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7c200c4bce3eaea076ed1fab26684fcc81812676">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cb4984f97f6b14d6a2e298173f2838aab499188/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_cdf6d2382832c9bc3d50afdf68458dfc025eeb5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ec9175c29173ed6aef80cae345a6bed30b709aa0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_86227436449ac7efb039fc47cc0bea151805514e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_7a52e5d20105e072d56396cf410c5fba171b5aae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_4de9b0132d6f0ccff7e700fefef98337b6d4f545/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lazerwalker/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/lazerwalker/Code/AndroidWebSocketTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_e21994b543e0fbe40d90740b71a1e2435b0cf682/classes.dex" />
+    </item>
+
+</items>

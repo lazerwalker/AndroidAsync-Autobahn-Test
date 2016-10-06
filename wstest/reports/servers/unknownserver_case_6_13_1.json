@@ -1,0 +1,154 @@
+{
+   "agent": "UnknownServer",
+   "behavior": "FAILED",
+   "behaviorClose": "FAILED",
+   "case": 120,
+   "closedByMe": true,
+   "createStats": true,
+   "createWirelog": true,
+   "description": "Send a text message with payload which is not valid UTF-8 in one fragment.<br><br>Payload: 0xc020c120c220c320c420c520c620c720c820c920ca20cb20cc20cd20ce20cf20d020d120d220d320d420d520d620d720d820d920da20db20dc20dd20de20",
+   "droppedByMe": false,
+   "duration": 508,
+   "expectation": "The connection is failed immediately, since the payload is not valid UTF-8.",
+   "expected": {
+      "OK": []
+   },
+   "expectedClose": {
+      "closeCode": [
+         1007
+      ],
+      "closedByMe": false,
+      "closedByWrongEndpointIsFatal": true,
+      "requireClean": false
+   },
+   "failedByMe": true,
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.5-0.10.9\r\nHost: localhost:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: uLOkBW89sRl9sv+eUuJsUA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: 1TKhcw3AU814mey4K6fg30hLZfk=\r\nTransfer-Encoding: Chunked\r\n\r\n",
+   "id": "6.13.1",
+   "isServer": false,
+   "localCloseCode": 1001,
+   "localCloseReason": "Going Away",
+   "received": [
+      [
+         "message",
+         "\ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd  ...",
+         false
+      ]
+   ],
+   "remoteCloseCode": null,
+   "remoteCloseReason": null,
+   "reportCompressionRatio": false,
+   "reportTime": false,
+   "result": "Actual events differ from any expected.",
+   "resultClose": "The connection was failed by the wrong endpoint",
+   "rxFrameStats": {
+      "1": 1
+   },
+   "rxOctetStats": {
+      "126": 1,
+      "157": 1
+   },
+   "started": "2016-10-06T01:29:44.444Z",
+   "trafficStats": null,
+   "txFrameStats": {
+      "1": 1,
+      "8": 1
+   },
+   "txOctetStats": {
+      "18": 1,
+      "68": 1,
+      "240": 1
+   },
+   "wasClean": false,
+   "wasCloseHandshakeTimeout": false,
+   "wasNotCleanReason": "peer dropped the TCP connection without previous WebSocket closing handshake",
+   "wasOpenHandshakeTimeout": false,
+   "wasServerConnectionDropTimeout": false,
+   "wirelog": [
+      [
+         "TO",
+         [
+            240,
+            "474554202f20485454502f312e310d0a557365722d4167656e743a204175746f6261686e5465737453756974652f302e372e352d302e31302e390d0a486f7374 ..."
+         ],
+         false
+      ],
+      [
+         "RO",
+         [
+            157,
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a557067726164653a20576562536f636b65740d0a436f6e6e656374696f6e ..."
+         ]
+      ],
+      [
+         "TF",
+         [
+            62,
+            "0xc020c120c220c320c420c520c620c720c820c920ca20cb20cc20cd20ce20cf20d020d120d220d320d420d520d620d720d820d920da20db20dc20dd20de20 ..."
+         ],
+         1,
+         true,
+         0,
+         "11ffe019",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            68,
+            "81be11ffe019d1df2139d3df2339d5df2539d7df2739d9df2939dbdf2b39dddf2d39dfdf2f39c1df3139c3df3339c5df3539c7df3739c9df3939cbdf3b39cddf ..."
+         ],
+         false
+      ],
+      [
+         "KL",
+         0.5
+      ],
+      [
+         "RO",
+         [
+            126,
+            "817cefbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbfbd20efbf ..."
+         ]
+      ],
+      [
+         "RF",
+         [
+            124,
+            "\ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd \ufffd  ..."
+         ],
+         1,
+         true,
+         0,
+         false,
+         null
+      ],
+      [
+         "KLE"
+      ],
+      [
+         "TF",
+         [
+            12,
+            "0x03e9476f696e672041776179"
+         ],
+         8,
+         true,
+         0,
+         "9755a33f",
+         null,
+         null,
+         false
+      ],
+      [
+         "TO",
+         [
+            18,
+            "888c9755a33f94bce450fe3bc41fd622c246"
+         ],
+         false
+      ]
+   ]
+}

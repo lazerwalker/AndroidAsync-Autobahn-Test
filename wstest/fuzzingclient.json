@@ -1,0 +1,12 @@
+
+{
+   "outdir": "./reports/servers",
+   "servers": [
+      {
+         "url": "ws://localhost:9001"
+      }
+   ],
+   "cases": ["*"],
+   "exclude-cases": ["9.*"],
+   "exclude-agent-cases": {}
+}
